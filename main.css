@@ -27,10 +27,9 @@ body {
 }
 
 .footer {
-  position:absolute;
-  margin:10px;
-  bottom:20px;
-  left:5px;
+  width:100%;
+  margin:25px;
+  padding:5px;
   color:#fff;
   font-size:8pt;
 }
@@ -43,4 +42,4 @@ article {
     border-radius:5px;
     box-shadow:0px 0px 2px #fff;
     background-color:#999;
-}
+i}
