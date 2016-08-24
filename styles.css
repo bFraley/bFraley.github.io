@@ -23,12 +23,15 @@ header {
   text-align:center;
 }
 
-.footer {
-  width:100%;
-  margin:25px;
-  padding:5px;
-  color:#fff;
-  font-size:8pt;
+footer {
+  width: 100%;
+  margin:25 0px;
+  padding: 7px;
+  color: #fff;
+  font-size: 8pt;
+  background-color: #ddd;
+  color: #555;
+  text-align: center;
 }
 
 #wrapper {
