@@ -126,6 +126,23 @@ article p {
     margin:10px 0px;
 }
 
+.forms {
+    width:100%;
+    padding:15px;
+    background-coloe:#999;
+    font-size:1.3em;
+    margin:25px auto;
+}
+
+.forms input, .forms textarea{
+    width:50%;
+    height:50px;
+    min-width:350px;
+    border:solid 1px #333;
+    margin:25px auto;
+    font-size:1.2em;
+}
+
 .home-article {
     background-color:#999;
     width:60%;
