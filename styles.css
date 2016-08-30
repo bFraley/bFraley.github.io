@@ -69,14 +69,14 @@ nav ul li {
     color:#fff;
 }
 
-.contact-info {
+.social-links {
     font-weight:200;
     width:100%;
     margin:50px 0px;
     border-top:solid 2px #333;
 }
 
-.contact-info ul li {
+.social-links ul li {
     display:inline;
     margin:25px;
 }
