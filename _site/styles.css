@@ -45,7 +45,6 @@ a:link, a:visited, a:active, a:focus {
     color: #eee;
     opacity: 0.9;
     text-decoration: none;
-    font-weight:700;
     letter-spacing:0.1em;
     font-weight:100;
 }
@@ -60,6 +59,7 @@ nav {
     width: 100%;
     background-color: #333;
     text-align: left;
+    white-space: nowrap;
 }
 
 nav ul li {
@@ -70,9 +70,10 @@ nav ul li {
 }
 
 .social-links {
+    padding:10px;
     font-weight:200;
     width:100%;
-    margin:50px 0px;
+    margin:25px 0px;
     border-top:solid 2px #333;
 }
 
@@ -101,12 +102,12 @@ nav ul li {
 
 article {
     border:solid 3px 0px #ddd;
-    max-width: 70%;
+    width:70%;
     min-width: 275px;
     margin: 25px auto;
-    padding: 20px;
+    padding: 25px;
     border-radius: 5px;
-    background-color: #ddd;
+    background-color: #eee;
     box-shadow: 0px 0px 2px #fff;
     text-align:left;
 }
@@ -119,8 +120,8 @@ article h1 {
     padding:10px;
 }
 article p {
-    font-size:1.2em;
-    text-align:left;
+    font-size:1.1em;
+    text-align:justify;
     color:#555;
     padding:5px;
     margin:10px 0px;
@@ -144,8 +145,22 @@ article p {
 }
 
 .home-article {
-    background-color:#999;
+    background-color:#ddd;
     width:60%;
+}
+
+.home-article a:link, .home-article a:visited, .home-article a:active, .home-article a:focus {
+    color: #222;
+    opacity: 0.9;
+    text-decoration: none;
+    font-weight:900;
+    letter-spacing:0.1em;
+}
+
+.home-article a:hover {
+  opacity: 1;
+  color:#008fcc;
+  text-shadow:0px 1px 1px #FFF;
 }
 
 .home-article h2 {
