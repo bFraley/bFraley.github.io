@@ -7,7 +7,7 @@ title: Text Adventures in Python
 <h1>Text Adventures in Python</h1>
 
 <p>Over the last week at bootcamp, we have dived deep into OOP in Python.
-The mission, design and create a text-based adventure. After considering many
+The mission was to design and create a text-based adventure game. After considering many
 game concepts, my game theme was chosen and some basic planning began.</p>
 
 <p>The most important lesson I have learned about the object oriented approach to programming
@@ -35,9 +35,31 @@ to give the city (a Python list of 8 objects) boundaries that the player cannot 
 write a little about the classes and methods I used, but then the rest of this post will detail the simple
 way to define edges of a square grid, or matrix.</p>
 
-<h2>I am an object, what do I need to know about, or do?</h2>
+<h3>I am an object. What do I need to know about? What do I need to do?</h3>
 
-<p>I learned (above) is a very helpful approach to designing a Class and it's corresponding methods.</p>
+<p>I learned this (above) is a very helpful approach to designing a Class and it's corresponding methods.
+I have the following classes in my game:</p>
+
+<ul>
+  <li>Game - The game class contains instances of game objects and control flow methods.</li>
+  <li>Ninja - The main player character.</li>
+  <li>Badguy - The game environment has 5 instances of badguy.</li>
+  <li>Building - 1 building instance per city block.</li>
+  <li>City - The city has a single `blocks` attribute, a list containing 9 instances of Building.</li>
+</ul>
+
+<p>Okay, simple right? That's what I thought until I had those class definitions in one file, along with many
+other helper functions and all the string constants for the game. At over 700 LOC, it quickly became hard to debug,
+extend, and even explain. I planned to modularize the classes into their own files once I had the basic features working,
+but it became increasingly difficult to split up the functionality. More so, the game worked and was playable!
+So, I feared breaking it in order to properly refactor the many nooks and crannies within the massive 1 file game.
+</p>
+
+<p>Once I dove in and started placing each class definition in it's own file, I noticed other areas that could be separated as well.
+It took a few frustrating hours to get the game back running. Once the dust cleared, it was a huge relief. It was a very rewarding
+experience, but I won't ever write such a riddle again.</p>
+
+<h3>On to this map edge logic!</h3>
 
 
 </article>
