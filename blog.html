@@ -3,8 +3,12 @@ layout: posts
 title: Blog
 ---
 
+<div class="list-group">
+
 {% for post in site.posts %}
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{ post.date | date: "%b %d, %Y" }}</p>
+<h3 class="list-group-item-heading"><a href="{{ post.url }}" class="list-group-item active">{{ post.title }}</a></h3>
+<p class="list-group-item-text">{{ post.date | date: "%b %d, %Y" }}</p>
 <hr>
 {% endfor %}
+
+</div>
