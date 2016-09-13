@@ -61,5 +61,13 @@ experience, but I won't ever write such a riddle again.</p>
 
 <h3>On to this map edge logic!</h3>
 
+<p>This works with any square container. In my case I'm using the notion of blocks or tiles
+as each location in the square. My 3 x 3 grid of 9 'blocks' is a just a flat Python list. It could be applied to pixels, or any other abstract single unit of measurement as long as the container is square.</p>
+
+<code><pre>
+city = ['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', block9]
+
+
+</pre></code>
 
 </article>
