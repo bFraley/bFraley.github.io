@@ -31,14 +31,11 @@ of an inventory.</p>
 
 <p>I limited the game environment to a 3 x 3 grid representing city blocks. Implementing the movement
 of the ninja from one block to the next was a rewarding experience. Especially, figuring out the logic
-to give the city (a Python list of 8 objects) boundaries that the player cannot move past. I am going to
-write a little about the classes and methods I used, but then the rest of this post will detail the simple
-way to define edges of a square grid, or matrix.</p>
+to give the city (a Python list of 9 objects) boundaries that the player cannot move past. Below, I've included a little about the classes and methods I used. I will be writing another blog post that will detail how to define edges of a square grid, or matrix for representing a map.</p>
 
 <h3>I am an object. What do I need to know about? What do I need to do?</h3>
 
-<p>I learned this (above) is a very helpful approach to designing a Class and it's corresponding methods.
-I have the following classes in my game:</p>
+<p>I learned this (above) is a very helpful approach to designing a Class and it's corresponding methods. I have the following classes in my game:</p>
 
 <ul>
   <li>Game - The game class contains instances of game objects and control flow methods.</li>
@@ -57,17 +54,6 @@ So, I feared breaking it in order to properly refactor the many nooks and cranni
 
 <p>Once I dove in and started placing each class definition in it's own file, I noticed other areas that could be separated as well.
 It took a few frustrating hours to get the game back running. Once the dust cleared, it was a huge relief. It was a very rewarding
-experience, but I won't ever write such a riddle again.</p>
-
-<h3>On to this map edge logic!</h3>
-
-<p>This works with any square container. In my case I'm using the notion of blocks or tiles
-as each location in the square. My 3 x 3 grid of 9 'blocks' is a just a flat Python list. It could be applied to pixels, or any other abstract single unit of measurement as long as the container is square.</p>
-
-<code><pre>
-city = ['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', block9]
-
-
-</pre></code>
+experience to modularize my game into many files, and I learned (the hard way) to never start a project as one large file again.</p>
 
 </article>
