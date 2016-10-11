@@ -167,7 +167,6 @@ article p {
     color:#008fcc;
 }
 
-
 /* header gradient */
 header {
     background: #f6f8f9;
@@ -177,8 +176,12 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 );
 }
 
-.list-group-item-heading, list-group-item-text {
- width:75%;
- margin:25px auto;
+.blog-list {
+    width:90%;
+    max-width:1000px;
+   background-color:#333;
 }
 
+.blog-list ul li {
+    list-style:none;
+}
