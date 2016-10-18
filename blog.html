@@ -4,18 +4,17 @@ title: Blog
 ---
 
 <h1>blog</h1>
-<p>Writings about developer bootcamp, projects, &amp; code.</p>
+<p>webdev, bootcamp, my projects, &amp; code.</p>
 
 <article class="blog-list">
     <ul>
         {% for post in site.posts %}
         <li>
-            <h4><a href="{{ post.url }}" class="list-group-item active">{{ post.title }}</a></h4>
-            <span class="list-group-item-text">{{ post.date | date: "%b %d, %Y" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            <hr>
         </li>
         
         {% endfor %}
     </ul>
 </article>
-
-

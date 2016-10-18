@@ -32,8 +32,8 @@ footer {
     position:fixed;
     bottom:0;
     width: 100%;
-    margin: 25px 0px 0px 0px;
-    padding: 7px;
+    margin: 100px 0px 0px 0px;
+    padding:20px 0px 5px 0px;
     color: #fff;
     font-size: 8pt;
     background-color: #ddd;
@@ -63,29 +63,17 @@ nav {
 }
 
 nav ul li {
-    list-style-type: none;
+    list-style-type:none;
     display:inline-block;
     margin:20px;
     color:#fff;
-}
-
-.social-links {
-    padding:10px;
-    font-weight:200;
-    width:100%;
-    margin:25px 0px;
-    border-top:solid 2px #333;
-}
-
-.social-links ul li {
-    display:inline;
-    margin:25px;
 }
 
 #wrapper {
     width:95%;
     margin:auto;
     text-align:center;
+    padding-bottom: 200px
 }
 
 #brettfraley-photo {
@@ -177,11 +165,40 @@ header {
 }
 
 .blog-list {
-    width:90%;
-    max-width:1000px;
+   width:90%;
+   max-width:1000px;
    background-color:#333;
+   color:#333;
 }
 
 .blog-list ul li {
     list-style:none;
+    margin:10px;
+}
+
+.blog-list span {
+    color:#000;
+    font-style:italic;
+    display:block;
+}
+
+.social-links {
+    width:100%;
+}
+
+.social-links a {
+    color:#333;
+}
+
+.social-links a:hover {
+  opacity: 1;
+  color:#008fcc;
+  text-shadow:0px 1px 1px #999;
+}
+
+.social-links ul li{
+    font-weight:200;
+    display:inline;
+    margin:10px;
+    color:#000;
 }
