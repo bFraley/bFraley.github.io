@@ -18,7 +18,7 @@ I started bootcamp with 4 repositories on Github. Two months later I have nearly
 Some are one-offs I cranked out in an afternoon. Others are full
 blown dynamic web applications built according to MVP (minimal viable product) client requirements.</p>
 
-<p>With one month left, everyday counts! I have important studying, portfolio polishing,
+<p>With one month left, every day counts! I have important studying, portfolio polishing,
 and a final individual project to build. Throughout the next month, with every new LOC, 
 every error message to overcome, and a healthy supply of to do list items getting added to the pile, I keep reminding myself to have fun.</p>
 
