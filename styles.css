@@ -227,9 +227,8 @@ header {
 /* textarea for message form */
 #commentOrder {
     min-height:300px;
-
 }
 
-
-
-
+i {
+    float:right;
+}
