@@ -90,7 +90,7 @@ nav ul li {
 
 article {
     border:solid 3px 0px #ddd;
-    width:70%;
+    width:80%;
     min-width: 275px;
     margin: 25px auto;
     padding: 25px;
@@ -102,11 +102,18 @@ article {
 
 article h1 {
     text-align:center;
-    font-size:1.25em;
+    font-size:2em;
     white-space:nowrap;
     border-bottom:solid 3px #008fcc;
     padding:10px;
 }
+
+article h2, article h3 {
+    font-size:1.5em;
+
+
+}
+
 article p {
     font-size:1.1em;
     text-align:justify;
@@ -167,6 +174,7 @@ article a:hover {
 
 .home-article h2 {
     color:#008fcc;
+    font-size:2.25em;
 }
 
 /* header gradient */
