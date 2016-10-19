@@ -3,7 +3,7 @@ layout: posts
 title: Text Adventures in Python
 ---
 
-<article>
+<article class="home-article">
 <h1>Text Adventures in Python</h1>
 
 <p>Over the last week at bootcamp, we have dived deep into OOP in Python.

@@ -3,7 +3,7 @@ layout: posts
 title: Weekly List - Fall 2016
 ---
 
-<article>
+<article class="home-article">
 <h1>Every week, this fall...</h1>    
 
 <p>There's numerious (practically endless) educational materials online to learn the next

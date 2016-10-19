@@ -36,7 +36,7 @@ footer {
     padding:20px 0px 5px 0px;
     color: #fff;
     font-size: 8pt;
-    background-color: #ddd;
+    background-color: #eee;
     color: #555;
     text-align: center;
 }
@@ -50,9 +50,9 @@ a:link, a:visited, a:active, a:focus {
 }
 
 a:hover {
-  opacity: 1;
-  color:#008fcc;
-  text-shadow:0px 1px 1px #222;
+    opacity: 1;
+    color:#008fcc;
+    text-shadow:0px 1px 1px #222;
 }
 
 nav {
@@ -77,7 +77,7 @@ nav ul li {
 }
 
 #brettfraley-photo {
-    width:12%;
+    width:15%;
     min-width:50px;
     min-height:50px;
     max-width:400px;
@@ -90,7 +90,7 @@ nav ul li {
 
 article {
     border:solid 3px 0px #ddd;
-    width:80%;
+    width:85%;
     min-width: 275px;
     margin: 25px auto;
     padding: 25px;
@@ -103,7 +103,6 @@ article {
 article h1 {
     text-align:center;
     font-size:2em;
-    white-space:nowrap;
     border-bottom:solid 3px #008fcc;
     padding:10px;
 }
@@ -118,6 +117,7 @@ article p {
     color:#555;
     padding:5px;
     margin:10px 0px;
+    line-height: 1.5em;
 }
 
 article ul li {
@@ -125,8 +125,8 @@ article ul li {
 }
 
 article a:link {
-    color:#333;
-    font-style: italic;
+    color:#000;
+    font-style:italic;
 }
 
 article a:hover {
@@ -154,26 +154,26 @@ article a:hover {
 
 .home-article {
     background-color:#ddd;
-    width:60%;
+    width:70%;
+}
+
+.home-article h2 {
+    color:#008fcc;
+    font-size:2em;
 }
 
 .home-article a:link, .home-article a:visited, .home-article a:active, .home-article a:focus {
     color: #222;
     opacity: 0.9;
     text-decoration: none;
-    font-weight:900;
+    font-weight:800;
     letter-spacing:0.1em;
 }
 
 .home-article a:hover {
-  opacity: 1;
-  color:#008fcc;
-  text-shadow:0px 1px 1px #FFF;
-}
-
-.home-article h2 {
+    opacity: 1;
     color:#008fcc;
-    font-size:2em;
+    text-shadow:0px 1px 1px #FFF;
 }
 
 /* header gradient */
@@ -187,7 +187,7 @@ header {
 
 .blog-list {
    width:90%;
-   max-width:1000px;
+   max-width:1200px;
    background-color:#333;
    color:#333;
 }
@@ -212,9 +212,9 @@ header {
 }
 
 .social-links a:hover {
-  opacity: 1;
-  color:#008fcc;
-  text-shadow:0px 1px 1px #999;
+    opacity: 1;
+    color:#008fcc;
+    text-shadow:0px 1px 1px #999;
 }
 
 .social-links ul li {
@@ -229,6 +229,8 @@ header {
     min-height:300px;
 }
 
-i {
+/* font-awesome github icon */
+.fa-github-square {
     float:right;
+    margin-right:25px;
 }
