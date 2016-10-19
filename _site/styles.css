@@ -52,7 +52,6 @@ a:link, a:visited, a:active, a:focus {
 a:hover {
     opacity: 1;
     color:#008fcc;
-    text-shadow:0px 1px 1px #222;
 }
 
 nav {
@@ -90,7 +89,7 @@ nav ul li {
 
 article {
     border:solid 3px 0px #ddd;
-    width:85%;
+    width:80%;
     min-width: 275px;
     margin: 25px auto;
     padding: 25px;
@@ -159,7 +158,8 @@ article a:hover {
 
 .home-article h2 {
     color:#008fcc;
-    font-size:2em;
+    font-size:3em;
+    margin-bottom: 25px;
 }
 
 .home-article a:link, .home-article a:visited, .home-article a:active, .home-article a:focus {
@@ -208,13 +208,12 @@ header {
 }
 
 .social-links a {
-    color:#333
+    color:#111
 }
 
 .social-links a:hover {
     opacity: 1;
     color:#008fcc;
-    text-shadow:0px 1px 1px #999;
 }
 
 .social-links ul li {
