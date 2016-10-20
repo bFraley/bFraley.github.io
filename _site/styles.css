@@ -29,14 +29,14 @@ header h1 {
 }
 
 footer {
-    position:fixed;
-    bottom:0;
+    /*position:fixed;
+    bottom:0;*/
     width: 100%;
     margin: 100px 0px 0px 0px;
-    padding:20px 0px 5px 0px;
-    color: #fff;
+    padding:30px 0px 5px 0px;
+    color: #000;
     font-size: 8pt;
-    background-color: #eee;
+    background-color: #222;
     color: #555;
     text-align: center;
 }
@@ -72,7 +72,7 @@ nav ul li {
     width:95%;
     margin:auto;
     text-align:center;
-    padding-bottom: 200px
+    padding-bottom: 200px;
 }
 
 #brettfraley-photo {
@@ -177,7 +177,7 @@ article a:hover {
 }
 
 /* header gradient */
-header {
+header, .blog-list {
     background: #f6f8f9;
     background: -moz-radial-gradient(center, ellipse cover,  #f6f8f9 0%, #d7dee3 51%, #f5f7f9 100%);
     background: -webkit-radial-gradient(center, ellipse cover,  #f6f8f9 0%,#d7dee3 51%,#f5f7f9 100%);
@@ -188,7 +188,6 @@ header {
 .blog-list {
    width:90%;
    max-width:1200px;
-   background-color:#333;
    color:#333;
 }
 
@@ -199,8 +198,12 @@ header {
 
 .blog-list span {
     color:#000;
-    font-style:italic;
     display:block;
+}
+
+.blog-list-title {
+    font-size:1.5em;
+    text-decoration:underline;
 }
 
 .social-links {
@@ -209,6 +212,7 @@ header {
 
 .social-links a {
     color:#111
+    padding:10px;
 }
 
 .social-links a:hover {

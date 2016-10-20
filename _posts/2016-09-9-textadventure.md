@@ -25,7 +25,7 @@ I will keep the content of README and Wiki documents aimed toward users, while u
 for specific implementation tasks and project milestones.</p>
 
 <p>With planning and project setup complete, on to thoughts on object oriented programming.
-I decided make a ninja game. The requirements were to have a character who could move through
+I decided to make a ninja game. The requirements were to have a character who could move through
 rooms or stages, battle enemies or complete some task, and have some notion
 of an inventory.</p>
 

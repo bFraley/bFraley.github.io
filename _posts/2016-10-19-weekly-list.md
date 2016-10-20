@@ -13,7 +13,7 @@ for the next month. Here's my plan. I'm writing about it in order to really soli
 dedication to using these resources each week!</p>
 
 <ul>
-    <li><a href="egghead.io">Eggly </a>(1-2 courses week)</li>
+    <li><a href="egghead.io">egghead.io </a>(1-2 courses week)</li>
     <li><a href="https://hackerrank.com">Hacker Rank </a>
     (3 Interview challenges, 3 general challenges a week).</li>
     <li><a href="https://interviewcake.com">Interview Cake </a>(Study 3 challenge questions per week).</li>
