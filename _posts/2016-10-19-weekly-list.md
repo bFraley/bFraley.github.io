@@ -8,7 +8,10 @@ title: Weekly List - Fall 2016
 
 <p>There's numerous materials online to learn the next
 big thing in software development. I've narrowed down
-some of the best resources that I'll be dedicating some time to each week - at least for the next month. Here's the plan:</p>
+some of the best resources that I'll be dedicating some
+time to each week - at least for the next month.</p>> 
+
+<h4>Here's the plan:</h4>
 
 <ul>
     <li><a href="egghead.io">egghead.io </a>(1-2 courses per week)</li>
