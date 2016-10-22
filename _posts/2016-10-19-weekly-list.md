@@ -9,7 +9,7 @@ title: Weekly List - Fall 2016
 <p>There's numerous materials online to learn the next
 big thing in software development. I've narrowed down
 some of the best resources that I'll be dedicating some
-time to each week - at least for the next month.</p>> 
+time to each week - at least for the next month.</p> 
 
 <h4>Here's the plan:</h4>
 
