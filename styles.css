@@ -271,3 +271,8 @@ article a:hover {
 .portfolio-item p {
     text-align: left;
 }
+
+.thumbnail {
+    min-height:375px;
+    overflow:scroll;
+}
