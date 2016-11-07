@@ -274,10 +274,17 @@ article a:hover {
 .thumbnail {
     min-height:375px;
     overflow:scroll;
-    background-color:#e0eeff;
+    background-color:#fff;
+    border-bottom:solid 2px #999;
+    padding:10px;
 }
 
 .caption, .caption p {
     text-align:center;
     font-size:0.9em;
 }
+
+.caption a {
+    background-color:#eee;
+}
+
