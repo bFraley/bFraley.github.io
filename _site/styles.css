@@ -267,28 +267,15 @@ article a:hover {
     padding-bottom: 10px;
 }
 
-.portfolio-item ul li{
-    list-style: none;
-}
+
 .portfolio-description {
     color:#555;
     padding:10px;
     text-align:left;
 }
 
-.thumbnail {
-    min-height:375px;
-    overflow:scroll;
-    background-color:#fff;
-    border-bottom:solid 2px #999;
-    padding:10px;
-}
-
-.caption, .caption p {
-    text-align:center;
-    font-size:0.9em;
-}
-
-.caption a {
-    background-color:#eee;
+hr {
+    height:5px;
+    background-color:#333;
+    border-bottom:solid 3px #fff;
 }
