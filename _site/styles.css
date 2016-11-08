@@ -229,12 +229,6 @@ article a:hover {
     min-height:300px;
 }
 
-/* font-awesome github icon */
-.fa-github-square {
-    float:right;
-    margin-right:25px;
-}
-
 #blog-heading {
     margin:10px auto;
     font-size:4em;
