@@ -159,7 +159,7 @@ article a:hover {
 
 .home-article {
     background-color:#eee;
-    width:85%;
+    width:90%;
 }
 
 .home-article h2 {
@@ -267,8 +267,13 @@ article a:hover {
     padding-bottom: 10px;
 }
 
-.portfolio-item p {
-    text-align: left;
+.portfolio-item ul li{
+    list-style: none;
+}
+.portfolio-description {
+    color:#555;
+    padding:10px;
+    text-align:left;
 }
 
 .thumbnail {
