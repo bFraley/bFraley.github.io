@@ -242,11 +242,11 @@ article a:hover {
     max-width:500px;
     border-radius:100%;
     color:#008fcc;
+    font-family:'Lobster', cursive;
 }
 
 #blog-subheading {
     font-size: 1.5em;
-    font-family:'Lobster', cursive;
     border-bottom:solid 5px #888;
     padding-bottom:20px;
     text-shadow: 0px 2px 10px #eee;
