@@ -63,7 +63,11 @@ a:hover {
 
 .navbar {
     background-color: #333;
-    padding:10px;
+    padding:8px;
+}
+
+.navbar a i {
+    margin-top:5px;
 }
 
 .navbar-header i, .nav.navbar-nav li a {
