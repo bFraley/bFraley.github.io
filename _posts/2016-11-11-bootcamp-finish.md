@@ -8,7 +8,7 @@ title: Bootcamp.finish_line.crossed
     <h1>Bootcamp Finish Line</h1>
 
     <div class="well">
-        <p>Our last official day of <a href="https://awesomeincu.com/bootcamp">bootcamp at Awesome Inc.
+        <p>Our last official day of <a href="https://awesomeincu.com/bootcamp">bootcamp at Awesome Inc.</a>
         concluded on November 11th. You might think we partied, hung out all day playing video games
         or rounds of ping pong, just taking it easy. We were much more productive and pragmatic than
         that!</p>
