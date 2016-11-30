@@ -3,7 +3,7 @@ layout: posts
 title: Bootcamp.finish_line.crossed
 ---
 
-<div class="home-article">
+<article class="home-article">
     
     <h1>Bootcamp Finish Line</h1>
 
@@ -50,8 +50,5 @@ title: Bootcamp.finish_line.crossed
         feel that my experience at boot camp is only the beginning of many amazing years
         in a career creating and developing amazing technologies.</p>
     </div>
-</div>
 
-
-
-
+</article>
