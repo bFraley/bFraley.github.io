@@ -30,10 +30,12 @@ title: Bootcamp.finish_line.crossed
         eventually I could earn a living doing something I passionately enjoy.</p>
 
         <p>It's not that I'm in love with semi-colons, black backgrounds with neon green text,
-        or the movie Hackers, it's that no matter who you are and where you live, software, 
-        engineering, and pure innovation either is, or will be a part of your life. I learned this 
-        at a rather young age, and always knew the key to innovation in my generation would
-        be the integrations of computers and software with every facet of our world.
+        or the movie Hackers, it's that no matter who you are and where you live, software
+        engineering and scientific innovation is somehow a part of your life. I believe 
+        in ideas, creative pursuits, and products that improve humanity as a whole, and
+        software is one of the most powerful and useful tools we have that enables this.
+        I learned this at a rather young age, and always knew the key to innovation in my generation 
+        would be the integrations of computers and software with every facet of our world.
         I knew this before the Web, when my older brother was showing me how to use Telnet
         to connect to a BBS. Even when playing Oregon Trail in 1st grade (on a Macintosh) I
         remember thinking "It's neat how far people have came since heading West, but we
@@ -43,8 +45,8 @@ title: Bootcamp.finish_line.crossed
         programming, because I have finally come full circle with those childhood interests. 
         The boot camp experience has given me something more than web development training. 
         It's given me the confidence to break down big goals into manageable tasks so that
-        I can actually accomplish them.I remember building robots as a kid (out of cardboard),
-        and I've always wantedto build robots as an adult, real robots programmed in C!
+        I can actually accomplish them. I remember building robots as a kid (out of cardboard),
+        and I've always wanted to build robots as an adult, real robots programmed in C!
         Now, in my spare time, I feel I could tackle a complex robot project with confidence. 
         My point is, I feel that my experience at boot camp is only the beginning of many amazing years
         in a career creating and developing amazing technologies.</p>
